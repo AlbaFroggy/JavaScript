@@ -1,0 +1,150 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    height: 100vh;
+    flex-direction: column; /* Organiza los elementos verticalmente */
+    text-align: center; /* Alinea el texto al centro */
+}
+
+/* Contenedor principal */
+main {
+    width: 100%;
+    max-width: 800px; /* Limita el ancho a 800px */
+    padding: 20px;
+    box-sizing: border-box; /* Incluye el padding dentro del ancho */
+}
+
+/* Título */
+h1 {
+    font-size: 2.5em;
+    color: #f4a261; /* Color melocotón */
+    margin-bottom: 20px;
+}
+
+/* Formulario de tareas */
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo del campo de texto */
+input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #f4a261;
+    width: 250px;
+    font-size: 1.1em;
+    margin-right: 10px;
+}
+
+/* Estilo del botón */
+button {
+    padding: 10px 15px;
+    background-color: #f4a261; /* Color melocotón */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e0814f; /* Color caramelo */
+}
+
+/* Lista de tareas */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column; /* Asegura que las tareas estén una debajo de la otra */
+    align-items: center; /* Centra las tareas */
+    margin-bottom: 20px;
+}
+
+/* Elementos de la lista */
+.tarea {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    max-width: 800px; /* Asegura que no se desborde */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+/* Tareas completadas (se mueven a la parte inferior y el texto se tacha) */
+.tarea.completada {
+    background-color: #e8f4f1; /* Color suave para tareas completadas */
+    margin-top: 20px;
+}
+
+.tarea.completada span {
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* Botones de acción */
+button.delete,
+button.complete {
+    padding: 8px 12px;
+    background-color: #ff6347; /* Rojo para eliminar */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.complete {
+    background-color: #4CAF50; /* Verde para completar */
+}
+
+button.delete:hover {
+    background-color: #e0533f;
+}
+
+button.complete:hover {
+    background-color: #45a049;
+}
+
+/* Diseño para pantallas pequeñas */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    input[type="text"] {
+        width: 200px;
+    }
+
+    button {
+        font-size: 1em;
+    }
+
+    .tarea {
+        font-size: 1em;
+    }
+
+    button.delete,
+    button.complete {
+        font-size: 1em;
+    }
+}
+

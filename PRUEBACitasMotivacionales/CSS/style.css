@@ -1,0 +1,70 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #e8eaf6; /* Color de fondo suave en tono lila claro */
+    color: #5e35b1; /* Color de texto en un tono morado oscuro */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Usamos Flexbox para centrar el contenedor */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Ocupa el 100% de la altura de la pantalla */
+}
+
+/* Contenedor principal */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra el contenido verticalmente dentro del main */
+    align-items: center; /* Centra horizontalmente dentro del main */
+    width: 100%;
+    max-width: 600px; /* Límite de ancho para el contenedor */
+    text-align: center;
+}
+
+/* Título */
+h1 {
+    font-size: 2.5rem;
+    color: #7e57c2; /* Color morado suave */
+    margin-bottom: 20px;
+}
+
+/* Botón */
+button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #9575cd; /* Lila medio */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #7e57c2; /* Lila más oscuro cuando se pasa el ratón */
+}
+
+/* Cita */
+#cita {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #512da8; /* Morado oscuro para la cita */
+    margin: 20px 0;
+}
+
+/* Diseño para pantallas pequeñas */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    button {
+        font-size: 1rem;
+    }
+
+    #cita {
+        font-size: 1.2rem;
+    }
+}

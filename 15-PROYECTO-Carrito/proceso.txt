@@ -1,0 +1,11 @@
+fases:
+-fase1: recuperar datos (cuando el usuario hace click, 
+se recupera la info del html) -> colocarlo en un array- (a la vez, lo agregamos en el carrito)
+-fase2: colocar esa información en el carrito
+-fase3: procurar, en el caso de que salgan duplicados, eliminarlos
+-fase4: tener en cuenta la cantidad pedida por el usuario (las veces que hayas pulsado en ella)
+-fase5: eliminar el producto que no desee el usuario del carrito
+-fase6: vaciar el carrito
+
+si le dou a agregar al carrito, lo agrega al carro, si le vuelvo a dar, aumenta la cantidad en uno
+si le doy a vaciar el carrito, lo vacía

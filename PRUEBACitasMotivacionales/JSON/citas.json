@@ -1,0 +1,66 @@
+[
+    {
+        "autor": "Maya Angelou",
+        "texto": "Si no te gusta algo, cámbialo. Si no puedes cambiarlo, cambia tu actitud."
+    },
+    {
+        "autor": "Oprah Winfrey",
+        "texto": "Lo que más me gusta hacer es ayudar a las personas a ser lo mejor de sí mismas."
+    },
+    {
+        "autor": "Malala Yousafzai",
+        "texto": "Un niño, un maestro, un libro y una pluma pueden cambiar el mundo."
+    },
+    {
+        "autor": "Ruth Bader Ginsburg",
+        "texto": "La pregunta no es si estamos logrando la igualdad, sino si estamos avanzando en ella."
+    },
+    {
+        "autor": "Michelle Obama",
+        "texto": "Cuando nos levantamos para ayudar a otros, nos levantamos también para ayudarnos a nosotros mismos."
+    },
+    {
+        "autor": "Eleanor Roosevelt",
+        "texto": "El futuro pertenece a aquellos que creen en la belleza de sus sueños."
+    },
+    {
+        "autor": "Frida Kahlo",
+        "texto": "Pies, para qué los quiero si tengo alas para volar."
+    },
+    {
+        "autor": "Audre Lorde",
+        "texto": "Tu silencio no te protegerá."
+    },
+    {
+        "autor": "Simone de Beauvoir",
+        "texto": "No se nace mujer: se llega a serlo."
+    },
+    {
+        "autor": "Sheryl Sandberg",
+        "frase": "La resiliencia no es una cualidad. Es una habilidad que se puede aprender y desarrollar."
+    },
+    {
+        "autor": "Sally Ride",
+        "texto": "La pregunta no es si estamos logrando la igualdad, sino si estamos avanzando en ella."
+    },
+    {
+        "autor": "Chimamanda Ngozi Adichie",
+        "texto": "Todos deberíamos ser feministas."
+    },
+    {
+        "autor": "Serena Williams",
+        "texto": "He logrado todo lo que he querido, pero siempre quiero más."
+    },
+    {
+        "autor": "Alicia Keys",
+        "texto": "El amor y la música pueden cambiar el mundo."
+    },
+    {
+        "autor": "Gabrielle Union",
+        "texto": "La belleza comienza en el momento en que decides ser tú misma."
+    },
+    {
+        "autor": "Rosa Parks",
+        "texto": "No tenía miedo de decir lo que pensaba."
+    }
+]

@@ -1,0 +1,90 @@
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fbe4f1; /* Rosa suave de fondo */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+/* Título */
+h1 {
+    font-size: 2.5rem;
+    color: #d17b92; /* Rosa medio */
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #d17b92;
+    margin-top: 20px;
+}
+
+/* Estilo de los botones de votación */
+#lista-opciones button {
+    background-color: #f8d7e0; /* Rosa claro */
+    color: #d17b92; /* Rosa medio */
+    border: 1px solid #d17b92;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#lista-opciones button:hover {
+    background-color: #d17b92; /* Rosa medio */
+    color: white;
+}
+
+/* Botón de reiniciar */
+#reiniciar {
+    background-color: #f8d7e0; /* Rosa claro */
+    color: #d17b92;
+    border: 1px solid #d17b92;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#reiniciar:hover {
+    background-color: #d17b92; /* Rosa medio */
+    color: white;
+}
+
+/* Estilo para los resultados */
+#resultados .resultado {
+    background-color: #ffffff;
+    color: #333;
+    border: 1px solid #d17b92;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+/* Diseño responsive */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    #lista-opciones button {
+        font-size: 1rem;
+        padding: 10px 15px;
+    }
+    #reiniciar {
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+}

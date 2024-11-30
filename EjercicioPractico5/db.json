@@ -1,0 +1,24 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "El Hobbit",
+      "author": "J.R.R. Tolkien"
+    },
+    {
+      "id": "2",
+      "title": "Harry Potter y la piedra filosofal",
+      "author": "J.K. Rowling"
+    },
+    {
+      "id": "3",
+      "title": "La brújula dorada",
+      "author": "Philip Pullman"
+    },
+    {
+      "id": "4",
+      "title": "El Señor de Los Anillos",
+      "author": "J.R.R. Tolkien"
+    }
+  ]
+}

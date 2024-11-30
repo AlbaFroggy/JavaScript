@@ -1,0 +1,59 @@
+  /* Estilos generales */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fce4ec; /* Rosa suave */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    text-align: center;
+    color: #333;
+}
+
+h1 {
+    color: #d81b60; /* Rosa fuerte */
+    font-size: 2.5rem;
+}
+
+/* Estilo para el reloj */
+#reloj {
+    font-size: 3rem;
+    color: #4a148c; /* Lila oscuro */
+    margin: 20px 0;
+}
+
+/* Estilo para el formulario */
+.formulario {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    font-size: 1.2rem;
+    border: 2px solid #d81b60;
+    border-radius: 5px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #d81b60;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #c2185b; /* Lila más oscuro */
+}
+
+/* Estilo para el mensaje */
+#mensaje {
+    font-size: 1.5rem;
+    color: #4caf50; /* Verde suave */
+}

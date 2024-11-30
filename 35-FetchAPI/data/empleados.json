@@ -1,0 +1,20 @@
+[
+     {
+          "id" : 1,
+          "nombre" : "Sebas",
+          "empresa" : "IES AZARQUIEL",
+          "trabajo" : "DWEC"
+     },
+     {
+          "id" : 2,
+          "nombre" : "Fernando",
+          "empresa" : "IES AZARQUIEL",
+          "trabajo" : "DWES"
+     },
+     {
+          "id" : 3,
+          "nombre" : "Camilo",
+          "empresa" : "IES AZARQUIEL",
+          "trabajo" : "DIW"
+     }
+]
